@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tarea clase 1</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap" rel="stylesheet">
+    
+  </head>
+
+  <body class="light-mode">
+
+    <div class="form">
+
+      <h1>Formulario de datos personales</h1>
+
+      <div class="form-container">
+
+        <form class="" action="#" method="post">
+        <div class="form-info">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required minlength="2" placeholder="Nombre" />
+
+        </div>
+
+        <div class="form-info">
+
+          <label for="last_name">Apellido:</label>
+          <input type="text" id="last_name" name="last_name" required minlength="2" placeholder="Apellido" />
+        </div>
+
+        <div class="form-info">
+
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="mail" required placeholder="Correo Electrónico" />
+        </div>
+
+        <div class="form-info">
+
+          <label for="date">Fecha de nacimiento:</label>
+          <input type="date" id="date" name="date" required />
+        </div>
+
+        <div class="form-info">
+
+          <label for="country">País de residencia:</label>
+          <input type="text" id="country" name="country" required minlength="2" placeholder="País de Residencia" />
+        </div>
+
+        <div class="form-info">
+          
+          <button class="btn-enviar" type="submit">Enviar</button>
+        </div>
+        </form>
+      </div>
+
+      <div class="btn">
+        <button id="lightModeBtn" class="btn-style" type="button">Estilo claro</button>
+        <button id="darkModeBtn" class="btn-style" type="button">Estilo de alto contraste</button>
+      </div>
+    </div>
+
+    <!--script-->
+    <script src="scripts/main.js"> </script>
+      
+  </body>
+</html>

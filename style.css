@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Anek Devanagari", sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 2% auto;
+    padding: 2% 0;
+    border-radius: 15px;
+}
+
+.form-container {
+    width: 70%;
+}
+
+.form-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 2% 0 2% 0;
+    width: 70%;
+}
+
+input{
+    height: 30px;
+    padding-left: 5px;
+}
+
+.btn-enviar{
+    height: 30px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+}
+
+.btn-style{
+    width: 50%;
+    height: 30px;
+    margin-right: 5px;
+    
+}
+
+
+/* Estilo claro */
+body.light-mode {
+    background-color: rgb(190, 252, 226);
+    color: rgb(65, 85, 97);
+}
+
+body.light-mode .form {
+    background-color: rgb(255, 255, 255);
+}
+
+body.light-mode input {
+    background-color: rgb(219, 248, 246);
+    color: rgb(73, 68, 68);
+}
+
+body.light-mode ::placeholder {
+    color: rgb(73, 68, 68);
+}
+
+body.light-mode .btn-enviar {
+    background-color: rgb(65, 85, 97);
+    color: rgb(255, 255, 255);
+}
+
+body.light-mode .btn-style {
+    background-color: rgb(65, 85, 97);
+    color: rgb(255, 255, 255);
+}
+
+/* Estilo oscuro */
+body.dark-mode {
+    background-color: rgb(0, 0, 0);
+    color: rgb(167, 247, 136);
+}
+
+body.dark-mode .form {
+    background-color: rgb(26, 29, 27);
+}
+
+body.dark-mode input {
+    background-color: rgb(59, 73, 73);
+    color: rgb(255, 255, 255);
+}
+
+body.dark-mode ::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+body.dark-mode .btn-enviar {
+    background-color: rgb(167, 247, 136);
+}
+
+body.dark-mode .btn-style {
+    background-color: rgb(167, 247, 136);
+}
